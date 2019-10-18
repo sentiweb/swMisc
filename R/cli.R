@@ -17,6 +17,8 @@
 #'  \item{range}{if TRUE accept range, with the syntax from-to, can be comma separated }
 #'  \item{unique}{ensure uniqueness of values}
 #' }
+#'
+#' @export
 parseArgs = function(defs=NULL, args=NULL) {
 
     opts = options("cli.args")$cli.args
