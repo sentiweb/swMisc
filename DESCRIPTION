@@ -1,0 +1,15 @@
+Package: swMisc
+Type: Package
+Imports:
+  methods
+Title: Misceallenous functions used for Sentiweb
+Version: 0.1.0
+Authors@R: c(
+    person("Clément", "Turbelin", email="clement.turbelin@sorbonne-universite.fr", role=c("aut", "cre"))
+  )
+Description: Some lonely functions we dont want to maintain in multiple packages.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
