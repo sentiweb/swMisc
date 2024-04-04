@@ -171,8 +171,8 @@ parseArgs = function(defs=NULL, args=NULL) {
             if( isTRUE(def$unique) ) {
                 v = unique(v)
             }
-            opts[[option]] = v
         }
+        opts[[option]] = v
     }
     if(length(errors) > 0) {
         print_usage()
