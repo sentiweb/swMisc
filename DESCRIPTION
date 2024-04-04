@@ -3,7 +3,7 @@ Type: Package
 Imports:
   methods
 Title: Misceallenous functions used for Sentiweb
-Version: 0.2
+Version: 0.2.1
 Authors@R: c(
     person("Clément", "Turbelin", email="clement.turbelin@sorbonne-universite.fr", role=c("aut", "cre"))
   )
